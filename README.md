@@ -12,12 +12,12 @@
   - [Insights of 2017](#Insights-of-2017)
   - [Thank you](#thank-you)
 
-## Collection
+## 1- Collection
 - Combine all raw data and sheets (4 tables total) into 1 file named **`RAW_Sales_Dataset`**.
 
 ---
 
-## Cleaning  
+## 2- Cleaning  
 1. Removed **1 duplicate row**.  
 2. Confirmed **no nulls** in the entire dataset.  
 3. Corrected the **`order_date`** datatype.  
@@ -33,7 +33,7 @@
 
 ---
 
-## Analysis  
+## 3- Analysis  
 1. **Total sales vs. total sales previous year** – *KPI*  
 2. **Total profit vs. total profit previous year** – *KPI*  
 3. **Sales vs. Profit over the years** – *line chart*  
@@ -44,7 +44,7 @@
 
 ---
 
-## Insights of 2017  
+## 4- Insights of 2017  
 1. **Sales Growth**:  
    - Total sales increased to **\$2,192,690** (current year) from **\$1,979,748** (previous year), reflecting **~10.7% growth**.  
 

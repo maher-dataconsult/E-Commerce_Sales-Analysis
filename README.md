@@ -22,12 +22,7 @@
 2. Confirmed **no nulls** in the entire dataset.  
 3. Corrected the **`order_date`** datatype.  
 4. Transformed **`ship_date`** into 3 columns and merged them into a valid date datatype.  
-5. Verified **no outliers** in the following fields:  
-   - Country  
-   - State  
-   - Region  
-   - Category  
-   - Subcategory  
+5. Verified **no outliers** in the following fields:  **`Country`**  & **`State`**  & **`Region`**  & **`Category`**  and **`Subcategory`**  
 6. Ensured **`sales`** contains **no zeros or negative numbers**.  
 7. Added a calculated column:  
    **`total_revenue = (sales * discount if discount > 0) * quantity`**  
@@ -66,6 +61,8 @@
    - Sales and profit likely grew year-over-year (exact values unclear due to formatting).  
 
 6. **Profit Margins**:  
-   - Profit ratios vary significantly by region (e.g., **6.25% in West** vs. unclear in other regions).  
+   - Profit ratios vary significantly by region (e.g., **6.25% in West** vs. unclear in other regions).
+
+---
 
 ## Thank you 

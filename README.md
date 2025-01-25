@@ -28,8 +28,7 @@
 7. Added a calculated column:  
    **`total_revenue = (sales * discount if discount > 0) * quantity`**  
 8. Split **country** and **city** using a delimiter.  
-9. For **`people`** and **`returns`** tables:  
-   - Used the first row as headers.  
+9. For **`people`** and **`returns`** tables: Used the first row as header.  
 10. Created relationships between tables in **Power Pivot**.  
 
 ---
